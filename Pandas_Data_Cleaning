@@ -1,34 +1,75 @@
 import pandas as pd
 
-# Load the raw file
-df_raw = pd.read_csv("Insert_Path", encoding="utf-8", sep=None, engine='python', header=None)
+# Load Excel file
+df_raw = pd.read_excel("Insert_Path", sheet_name="Others & Grand Total", header=None)
 
 # Extract headers
-header_group = df_raw.iloc[1]
-header_type = df_raw.iloc[2]
+region_row = df_raw.iloc[3]   # Region names
+purpose_row = df_raw.iloc[4]  # Purposes under each region
 
-# Combine headers
-combined_headers = []
-for group, dtype in zip(header_group, header_type):
-    if pd.isna(group) and pd.notna(dtype):
-        group = combined_headers[-1].split("_")[0]
-    elif pd.isna(group) and pd.isna(dtype):
-        combined_headers.append("Unnamed")
-        continue
-    combined_headers.append(f"{str(group).strip()}_{str(dtype).strip()}")
+# Forward-fill region names
+region_names = region_row.ffill()
 
-# Assign combined headers
-df_clean = df_raw.iloc[3:].copy()
-df_clean.columns = combined_headers
+# Create column names
+column_names = []
+for region, purpose in zip(region_names, purpose_row):
+    region = str(region).strip() if pd.notna(region) else ""
+    purpose = str(purpose).strip().replace(" ", "_") if pd.notna(purpose) else ""
+    combined = f"{region}_{purpose}" if region and purpose else region or purpose
+    column_names.append(combined)
 
-# Drop empty rows/columns
-df_clean.dropna(axis=0, how="all", inplace=True)
-df_clean.dropna(axis=1, how="all", inplace=True)
+# Load data starting from row 5
+data = df_raw.iloc[5:].copy()
+data.columns = column_names
 
-# Replace "-" with 0 and remove commas
-df_clean.replace("-", 0, inplace=True)
-df_clean = df_clean.applymap(lambda x: str(x).replace(",", "") if isinstance(x, str) else x)
-df_clean = df_clean.applymap(lambda x: float(x) if str(x).replace('.', '', 1).isdigit() else x)
+# Year and Month extraction
+data["Year"] = df_raw.iloc[5:, 0].ffill().values
+data["Month"] = df_raw.iloc[5:, 1].astype(str).str.replace("．", ".", regex=False).str.strip()
+
+# Drop rows where Month is missing
+data = data.dropna(subset=["Month"])
+
+# Set of purposes
+purposes = ["Total", "Tourist", "Business", "Others", "Short_Excursion"]
+
+# Get unique region names
+regions = list({col.rsplit("_", 1)[0] for col in data.columns if col.endswith("_Total")})
 
 
-df_clean.to_csv("NEW_FILE_NAME", index=False)
+rows = []
+for region in regions:
+    row_df = data[["Year", "Month"]].copy()
+    row_df["Region"] = region
+    for purpose in purposes:
+        col_name = f"{region}_{purpose}"
+        if col_name in data.columns:
+            row_df[purpose] = data[col_name]
+        else:
+            row_df[purpose] = pd.NA
+    rows.append(row_df)
+
+df_cleaned = pd.concat(rows, ignore_index=True)
+
+# Clean numbers: remove commas, extract digits, convert to integers, fill NaNs with 0
+for purpose in purposes:
+    df_cleaned[purpose] = (
+        df_cleaned[purpose]
+        .astype(str)
+        .str.replace(",", "")
+        .str.extract(r"(\d+)", expand=False)
+        .fillna("0")
+        .astype(int)
+    )
+
+# Sort the months in calendar order
+month_order = ["Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.",
+               "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
+df_cleaned["Month"] = pd.Categorical(df_cleaned["Month"], categories=month_order, ordered=True)
+df_cleaned = df_cleaned.sort_values(by=["Year", "Month"])
+
+# Reorder columns
+df_cleaned = df_cleaned[["Year", "Month", "Region", "Total", "Tourist", "Business", "Others", "Short_Excursion"]]
+
+# Save file
+df_cleaned.to_csv("new_name.csv", index=False)
+
