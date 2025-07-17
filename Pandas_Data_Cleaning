@@ -65,7 +65,7 @@ for purpose in purposes:
 month_order = ["Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.",
                "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
 df_cleaned["Month"] = pd.Categorical(df_cleaned["Month"], categories=month_order, ordered=True)
-df_cleaned = df_cleaned.sort_values(by=["Year", "Month"])
+df_cleaned = df_cleaned.sort_values(by=["Year", "Month", "Region"])
 
 # Reorder columns
 df_cleaned = df_cleaned[["Year", "Month", "Region", "Total", "Tourist", "Business", "Others", "Short_Excursion"]]
