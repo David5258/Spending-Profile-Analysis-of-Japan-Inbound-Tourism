@@ -68,6 +68,27 @@ FROM yearly_visitors_by_region v
 JOIN yearly_spending s
     ON v.Year = s.Year AND v.Region = s.Region;
 
+#Create a new table with the total spending and create a new column for the year over year growth rate and set all as NULL
+CREATE TABLE yearly_spending_summary AS
+SELECT 
+    curr.Year,
+    curr.Region,
+    (curr.Total * curr.Spending) AS TotalSpending,
+    NULL AS YOY_Growth
+FROM yearly_visitors_with_spending AS curr;
+
+#Allow to store decimals instead of INT
+ALTER TABLE yearly_spending_summary
+MODIFY COLUMN YOY_Growth DECIMAL(6,2);
+
+#Update the YOY_Growth column
+UPDATE yearly_spending_summary AS curr
+JOIN yearly_spending_summary AS prev
+  ON curr.Region = prev.Region AND curr.Year = prev.Year + 1
+SET curr.YOY_Growth = 
+  ROUND( (curr.TotalSpending - prev.TotalSpending) / prev.TotalSpending * 100, 2 );
+
+
 
     
 
