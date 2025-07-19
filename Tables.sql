@@ -8,7 +8,7 @@ SELECT
     SUM(Business) AS Business,
     SUM(Others) AS Others,
     SUM(Short_Excursion) AS Short_Excursion
-FROM cleaned_visitors_by_regionyearly_spending
+FROM cleaned_visitors_by_region
 GROUP BY Year, Region
 ORDER BY Year, Region;
 
