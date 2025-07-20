@@ -41,6 +41,7 @@ This project uses public tourism statistics provided by:
 - China consistently leads in tourism spending even during its steep drop in 2019 during the COVID period, with a sharp bounce back of 148.7% in 2024.
 - Sharp rebounds in 2023 and 2024 shows the sector's resilience, with 2024 surpassing pre-COVID levels.
 - China is one of the few countris recording a significan drop in tourists in 2023 compared to 2019 caused by its travelling policies following COVID-19, showcasing its major role in influencing tourism trends.
+- China, Taiwan and the United States contribute to over 42.7% of Japan's international tourism spending.
 ## Recommendations
 ### Enhancing Tourist Retention
 - **Returning tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors enhanced experiences and long-term engagement strategies.
