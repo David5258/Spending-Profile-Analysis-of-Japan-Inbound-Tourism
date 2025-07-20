@@ -22,14 +22,27 @@ This project uses public tourism statistics provided by:
 ## Insights Deep-Dive
 
 ### Tourism Trends and Growth Rates
+- Post-COVID Rebound: Tourism surged in 2024
+
+
+<p align="center">
+<img width="676" height="495" alt="Screenshot 2025-07-19 at 4 21 44 PM" src="https://github.com/user-attachments/assets/a61f9472-adc3-4e0d-beae-5713f41e3d09" />
+</p>
+
+
+
+
 
 <p align="center">
 <img width="700" height="550" alt="Screenshot 2025-07-19 at 4 41 08 PM" src="https://github.com/user-attachments/assets/1b362012-2ea7-4b96-8695-3eeed42e0cf1" />
 </p>
 
-<p align="center">
-<img width="676" height="495" alt="Screenshot 2025-07-19 at 4 21 44 PM" src="https://github.com/user-attachments/assets/a61f9472-adc3-4e0d-beae-5713f41e3d09" />
-</p>
+
+## Recommendations
+### Strategic Insights
+- Diversification: Japan's inbound tourism currently relies heavily on a countries like China and the US. Fast-growing Southeast Asian and European markets like Spain,India, Italy offer diversification potential.
+- Returning tourists: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors enhanced experiences and long-term engagement strategies.
+
 
  
 
