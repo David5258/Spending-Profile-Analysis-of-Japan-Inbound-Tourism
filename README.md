@@ -37,7 +37,10 @@ This project uses public tourism statistics provided by:
 <img width="700" height="550" alt="Screenshot 2025-07-19 at 4 41 08 PM" src="https://github.com/user-attachments/assets/1b362012-2ea7-4b96-8695-3eeed42e0cf1" />
 </p>
 
-
+### Total Spending Over Time
+- China consistently leads in tourism spending even during its steep drop in 2019 during the COVID period, with a sharp bounce back of 148.7% in 2024.
+- Sharp rebounds in 2023 and 2024 shows the sector's resilience, with 2024 surpassing pre-COVID levels.
+- China is one of the few countris recording a significan drop in tourists in 2023 compared to 2019 caused by its travelling policies following COVID-19, showcasing its major role in influencing tourism trends.
 ## Recommendations
 ### Enhancing Tourist Retention
 - **Returning tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors enhanced experiences and long-term engagement strategies.
