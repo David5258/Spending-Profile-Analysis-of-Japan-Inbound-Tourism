@@ -7,8 +7,10 @@ Tourism in Japan has been on the rise for various reasons.As Japan reopens its b
 2. Year-over-Year (YOY) Growth Rate: Identify emerging or declining tourist markets based on annual changes.
 
 Note: Data for the years 2020 to 2022 is unavailable due to limited public reporting during the COVID-19 pandemic, when Japan closed its borders to international tourists.
-<img width="966" height="664" alt="Screenshot 2025-07-19 at 8 05 16 PM" src="https://github.com/user-attachments/assets/ad562d9c-fe7b-4faf-b25a-8d7d92672c77" />
 
+<p align="center">
+<img width="773" height="531" alt="Screenshot 2025-07-19 at 8 05 16 PM" src="https://github.com/user-attachments/assets/ad562d9c-fe7b-4faf-b25a-8d7d92672c77" />
+</p>
 
 
 ## Data source
@@ -20,11 +22,14 @@ This project uses public tourism statistics provided by:
 ## Insights Deep-Dive
 
 ### Tourism Trends and Growth Rates
-- 
-<img width="1000" height="785" alt="Screenshot 2025-07-19 at 4 41 08 PM" src="https://github.com/user-attachments/assets/1b362012-2ea7-4b96-8695-3eeed42e0cf1" />
 
-<img width="966" height="707" alt="Screenshot 2025-07-19 at 4 21 44 PM" src="https://github.com/user-attachments/assets/a61f9472-adc3-4e0d-beae-5713f41e3d09" />
+<p align="center">
+<img width="700" height="550" alt="Screenshot 2025-07-19 at 4 41 08 PM" src="https://github.com/user-attachments/assets/1b362012-2ea7-4b96-8695-3eeed42e0cf1" />
+</p>
 
+<p align="center">
+<img width="676" height="495" alt="Screenshot 2025-07-19 at 4 21 44 PM" src="https://github.com/user-attachments/assets/a61f9472-adc3-4e0d-beae-5713f41e3d09" />
+</p>
 
  
 
