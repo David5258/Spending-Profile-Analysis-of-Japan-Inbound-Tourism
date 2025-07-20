@@ -3,8 +3,8 @@
 ## Executive Summary
 Tourism in Japan has been on the rise for various reasons.As Japan reopens its borders, understanding who spends, how much, and why has never been more critical. This project dives deep into over a decade of inbound tourism data, analyzing the financial footprint of visitors in Japan from 2015 to 2024 by focusing on two core dimensions:
  
-1. Total Spending by Country: Understand which markets contribute the most in absolute monetary terms.
-2. Year-over-Year (YOY) Growth Rate: Identify emerging or declining tourist markets based on annual changes.
+1. **Total Spending by Country**: Understand which markets contribute the most in absolute monetary terms.
+2. **Year-over-Year (YOY) Growth Rate**: Identify emerging or declining tourist markets based on annual changes.
 
 Note: Data for the years 2020 to 2022 is unavailable due to limited public reporting during the COVID-19 pandemic, when Japan closed its borders to international tourists.
 
@@ -39,9 +39,13 @@ This project uses public tourism statistics provided by:
 
 
 ## Recommendations
-### Strategic Insights
-- Diversification: Japan's inbound tourism currently relies heavily on a countries like China and the US. Fast-growing Southeast Asian and European markets like Spain,India, Italy offer diversification potential.
-- Returning tourists: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors enhanced experiences and long-term engagement strategies.
+### Enhancing Tourist Retention
+- **Returning tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors enhanced experiences and long-term engagement strategies.
+- **Introduce Loyalty Programs**: Implement a tourism loyalty scheme such as discounts, free experience or VIP passes to incentivize returning visitors.
+
+### Market Expansion
+- **Diversification**: Japan's inbound tourism currently relies heavily on a countries like China and the US. Fast-growing Southeast Asian and European markets like Spain,India, Italy offer diversification potential.
+- **Promote Local Culture and Sustainability**: Develop authentic local experiences in less popular cities to attract cuturally curious and responsible travelers.
 
 
  
