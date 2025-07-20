@@ -28,6 +28,7 @@ This project uses public tourism statistics provided by:
 <p align="center">
 <img width="676" height="495" alt="Screenshot 2025-07-19 at 4 21 44 PM" src="https://github.com/user-attachments/assets/a61f9472-adc3-4e0d-beae-5713f41e3d09" />
 </p>
+- Southeast Asia shows explosive post-COVID growth, suggesting major untapped marketing opportunities.
 
 
 
