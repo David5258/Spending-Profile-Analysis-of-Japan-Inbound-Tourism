@@ -28,7 +28,18 @@ This project uses public tourism statistics provided by:
 <p align="center">
 <img width="676" height="495" alt="Screenshot 2025-07-19 at 4 21 44 PM" src="https://github.com/user-attachments/assets/a61f9472-adc3-4e0d-beae-5713f41e3d09" />
 </p>
-- Southeast Asia shows explosive post-COVID growth, suggesting major untapped marketing opportunities.
+
+### Tourism Rebound Mirrors Policy Changes
+- The dramatic spike in 2024 growth for countries like Russia (199.3%) and China (148.7%) likely reflects the reopening after prolonged border closures, eased travel restrictions, and strong domestic promotion campaigns post-COVID.
+- These jumps suggest that government policy is one of the most powerful levers for tourism recovery.
+
+### Volatility = Vulnerability/Opportunity
+- Indonesia, Taiwan, and Italy show wild swings: sharp declines in 2019 followed by massive rebounds in 2024.
+- This kind of volatility often suggests dependence on specific tourism channels.
+- While the rebound looks promising, the inconsistency is a risk factor — Japan must work to diversify tourism sources to avoid being vulnerable to shocks.
+### Downward trends
+- The UK had a negative growth rate of -2.4% in 2016, but steadily recovered, reaching 58.4% in 2024, which might reflect a renewed interest post-Brexit.
+- Negative growth rates can be associated with various reasons such as policy changes within a country, and not necessarily a weakness in Japan's tourism promotion plan.
 
 
 
