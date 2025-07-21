@@ -22,7 +22,10 @@ This project uses public tourism statistics provided by:
 ## Insights Deep-Dive
 
 ### Tourism Trends and Growth Rates
-- Post-COVID Rebound: Tourism surged in 2024.
+- In 2024, Russia (+199.3%) and China (+148.7%) recorded the highest YOY tourism growth, signaling explosive post-COVID demand.
+- 17 out of 18 listed countries experienced positive growth in 2024, reflecting a widespread global recovery.
+- Growth was especially strong from Asia-Pacific markets, reinforcing Japan’s regional tourism appeal.
+- Tourism growth in 2024 far outpaced pre-COVID years, with many countries doubling their 2019 rates.
 
 
 <p align="center">
