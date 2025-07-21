@@ -1,7 +1,7 @@
 # Japan Inbound Tourism Data Analysis
 
 ## Executive Summary
-Tourism in Japan has been on the rise for various reasons.As Japan reopens its borders, understanding who spends, how much, and why has never been more critical. This project dives deep into over a decade of inbound tourism data, analyzing over 125,000+ data points across 17 countries and $5B+ in tourist spending by focusing on two core dimensions:
+Tourism in Japan has been on the rise for various reasons. As Japan reopens its borders, understanding who spends, how much, and why has never been more critical. This project dives deep into over a decade of inbound tourism data, analyzing 125,000+ data points across 17 countries and $5B+ in tourist spending by focusing on two core dimensions:
  
 1. **Total Spending by Country**: Understand which markets contribute the most in absolute monetary terms.
 2. **Year-over-Year (YOY) Growth Rate**: Identify emerging or declining tourist markets based on annual changes.
@@ -22,7 +22,7 @@ This project uses public tourism statistics provided by:
 ## Insights Deep-Dive
 
 ### Tourism Trends and Growth Rates
-- Post-COVID Rebound: Tourism surged in 2024
+- Post-COVID Rebound: Tourism surged in 2024.
 
 
 <p align="center">
@@ -37,9 +37,9 @@ This project uses public tourism statistics provided by:
 - Indonesia, Taiwan, and Italy show wild swings: sharp declines in 2019 followed by massive rebounds in 2024.
 - This kind of volatility often suggests dependence on specific tourism channels.
 - While the rebound looks promising, the inconsistency is a risk factor — Japan must work to diversify tourism sources to avoid being vulnerable to shocks.
-### Downward trends
+### Downward Trends
 - The UK had a negative growth rate of -2.4% in 2016, but steadily recovered, reaching 58.4% in 2024, which might reflect a renewed interest post-Brexit.
-- Negative growth rates can be associated with various reasons such as policy changes within a country, and not necessarily a weakness in Japan's tourism promotion plan.
+- Negative growth rates can be associated with various reasons, such as policy changes within a country, and not necessarily a weakness in Japan's tourism promotion plan.
 
 
 
@@ -51,17 +51,17 @@ This project uses public tourism statistics provided by:
 
 ### Total Spending Over Time
 - China consistently leads in tourism spending even during its steep drop in 2019 during the COVID period, with a sharp bounce back of 148.7% in 2024.
-- Sharp rebounds in 2023 and 2024 shows the sector's resilience, with 2024 surpassing pre-COVID levels.
-- China is one of the few countries recording a significant drop in tourists in 2023 compared to 2019 caused by its travelling policies following COVID-19, showcasing its major role in influencing tourism trends.
-- China, Taiwan and the United States contribute to over 42.7% of Japan's international tourism spending.
+- Sharp rebounds in 2023 and 2024 show the sector's resilience, with 2024 surpassing pre-COVID levels.
+- China is one of the few countries recording a significant drop in tourists in 2023 compared to 2019 caused by its traveling policies following COVID-19, showcasing its major role in influencing tourism trends.
+- China, Taiwan, and the United States contribute to over 42.7% of Japan's international tourism spending.
 ## Recommendations
 ### Enhancing Tourist Retention
-- **Returning tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors enhanced experiences and long-term engagement strategies.
-- **Introduce Loyalty Programs**: Implement a tourism loyalty scheme such as discounts, free experience or VIP passes to incentivize returning visitors.
+- **Returning tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors with enhanced experiences and long-term engagement strategies.
+- **Introduce Loyalty Programs**: Implement a tourism loyalty scheme such as discounts, free experience, or VIP passes to incentivize returning visitors.
 
 ### Market Expansion
-- **Diversification**: Japan's inbound tourism currently relies heavily on a countries like China and the US. Fast-growing Southeast Asian and European markets like Spain,India, Italy offer diversification potential.
-- **Promote Local Culture and Sustainability**: Develop authentic local experiences in less popular cities to attract cuturally curious and responsible travelers.
+- **Diversification**: Japan's inbound tourism currently relies heavily on countries like China and the US. Fast-growing Southeast Asian and European markets like Spain, India, and Italy offer diversification potential.
+- **Promote Local Culture and Sustainability**: Develop authentic local experiences in less popular cities to attract culturally curious and responsible travelers.
 
 
  
