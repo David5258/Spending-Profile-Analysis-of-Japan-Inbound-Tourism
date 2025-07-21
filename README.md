@@ -1,7 +1,7 @@
 # Japan Inbound Tourism Data Analysis
 
 ## Executive Summary
-Tourism in Japan has been on the rise for various reasons.As Japan reopens its borders, understanding who spends, how much, and why has never been more critical. This project dives deep into over a decade of inbound tourism data, analyzing the financial footprint of visitors in Japan from 2015 to 2024 by focusing on two core dimensions:
+Tourism in Japan has been on the rise for various reasons.As Japan reopens its borders, understanding who spends, how much, and why has never been more critical. This project dives deep into over a decade of inbound tourism data, analyzing over 125,000+ data points across 17 countries and $5B+ in tourist spending by focusing on two core dimensions:
  
 1. **Total Spending by Country**: Understand which markets contribute the most in absolute monetary terms.
 2. **Year-over-Year (YOY) Growth Rate**: Identify emerging or declining tourist markets based on annual changes.
