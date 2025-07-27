@@ -59,7 +59,7 @@ This project uses public tourism statistics provided by:
 - China, Taiwan, and the United States contribute to over 42.7% of Japan's international tourism spending.
 ## Recommendations
 ### Enhancing Tourist Retention
-- **Returning tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors with enhanced experiences and long-term engagement strategies.
+- **Returning Tourists**: Japan might experience a drop in tourism from countries that have reached its tourism ceiling. To maintain peak tourism levels, efforts must shift to focusing on encouraging returning visitors with enhanced experiences and long-term engagement strategies.
 - **Introduce Loyalty Programs**: Implement a tourism loyalty scheme such as discounts, free experience, or VIP passes to incentivize returning visitors.
 
 ### Market Expansion
