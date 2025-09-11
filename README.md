@@ -67,7 +67,7 @@ This project uses public tourism statistics provided by:
 - **Promote Local Culture and Sustainability**: Develop authentic local experiences in less popular cities to attract culturally curious and responsible travelers.
 
 
- 
+
 
 
 
